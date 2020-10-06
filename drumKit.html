@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="drumKit.css">
+</head>
+<body>
+    <h1 class="head" id="head">Drum Kit</h1>
+    <div class="container" id="container">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">CLAP</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">HI HAT</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">KICK</span>
+        </div>
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">OPEN HAT</span>
+        </div>
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">RIDE</span>
+        </div>
+        <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">SNARE</span>
+        </div>
+        <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <span class="sound">TOM</span>
+        </div>
+    </div>
+
+    <audio data-key="65" src="Clap.mp3"></audio>
+    <audio data-key="83" src="Hi Hat.wav"></audio>
+    <audio data-key="68" src="Kick.mp3"></audio>
+    <audio data-key="70" src="Open hat.wav"></audio>
+    <audio data-key="71" src="Ride.mp3"></audio>
+    <audio data-key="72" src="Snare.wav"></audio>
+    <audio data-key="74" src="Tom.wav"></audio>
+
+    <script src="drumKit.js"></script>
+</body>
+</html>

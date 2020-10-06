@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: cursive;
+}
+body{
+    background-image: url('https://i2.wp.com/drummagazine.com/wp-content/uploads/2016/03/drums-2599508_1280.jpg?fit=1280%2C853&ssl=1');
+    background-color: rgba(0,0,0,.6);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 6rem;
+    color: rgb(4, 1, 12);
+    text-shadow: 5px 5px 10px rgb(253, 255, 158);
+}
+.container{
+    display: flex;
+}
+.key{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 6px rgba(255,255,255,.3) solid;
+    border-radius: 18%;
+    height: 12vh;
+    width: 12vh;
+    margin: 35px;
+    transition: all 0.01s;
+}
+.playing{
+    border: 5px solid rgb(217, 255, 0);
+    box-shadow: 0 0 30px rgb(246, 248, 99);
+    transform: scale(1.2);
+}
+kbd{
+    font-size: 3rem;
+}
+span{
+    font-size: .9rem;
+    color: rgb(225, 241, 0);
+}
